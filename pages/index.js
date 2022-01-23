@@ -1,14 +1,14 @@
 import { server } from '../config';
-import Head from 'next/head';
+// import Head from 'next/head';
 import ArticleList from '../components/ArticleList';
 
 export default function Home({ articles }) {
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>Calculator</title>
         <meta name="keywords" content="money, calculate" />
-      </Head>
+      </Head> */}
 
       <ArticleList articles={articles} />
     </div>
