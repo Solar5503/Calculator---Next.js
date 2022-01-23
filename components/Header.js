@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <h1 className={headerStyles.title}>
-        <span>Give </span>credit
+        <span>Welcome </span>to Calculator
       </h1>
       <p className={headerStyles.description}>Do you need money? Come to us!</p>
       {/* <style jsx>
